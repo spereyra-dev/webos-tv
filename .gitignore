@@ -1,0 +1,22 @@
+# Credentials and device identifiers — never commit these.
+*.key
+*.pem
+*.sig
+*.env
+.env*
+*secret*
+*token*
+secrets/
+secrets.*
+start-devmode.sh*
+AdGuardHome.yaml*
+*.bak
+
+# Scratch output
+result
+serve/
+icons/
+*.tar.gz
+*.ipk
+__pycache__/
+.DS_Store
